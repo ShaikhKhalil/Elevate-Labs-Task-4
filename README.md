@@ -8,6 +8,7 @@ Queries include:
 - `COUNT` – total members, books, and grouped counts
 - `AVG` – average published year
 - `MIN` & `MAX` – oldest and latest published year
+- `SUM` - sum of books which is issued 
 - `GROUP BY` – authors, categories, librarians, members
 - `HAVING` – categories with more than one book
 
