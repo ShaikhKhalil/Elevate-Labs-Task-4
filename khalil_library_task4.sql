@@ -2,6 +2,8 @@ USE khalil_library;
 
 SELECT COUNT(*) FROM Member;
 
+SELECT SUM(issue_id) FROM IssuedBook;
+
 SELECT COUNT(*) FROM Book;
 
 SELECT AVG(published_year) FROM Book;
